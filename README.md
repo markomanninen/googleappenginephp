@@ -20,9 +20,10 @@ NOTE: If you get package from GitHub, then you need to get Google App Engine SDK
 2. Get PHP on Google App Engine http://budurl.com/phpongoogleappengine and upzip if you didn't already
 3. Open ./war/appengine-web.xml file from unzipped directory and edit 3rd line:
 
-   <application>my-application-id</application>
+    <application>my-application-id</application>
 
-  to contain your application id.
+ to contain your application id.
+
 4. Open console and go to the unzipped directory called "blankapp":
 
     cd /path/to/blankapp/ 
@@ -31,9 +32,9 @@ NOTE: If you get package from GitHub, then you need to get Google App Engine SDK
 
     sh ./appengine-java-sdk-1.5.5/bin/appcfg.sh --enable_jar_splitting update ./war
 
-    or run the deployment code for windows:
+ or run the deployment code for windows:
 
-	./appengine-java-sdk-1.5.5/bin/appcfg.cmd --enable_jar_splitting update ./war
+    ./appengine-java-sdk-1.5.5/bin/appcfg.cmd --enable_jar_splitting update ./war
 
 6. Give your Google account username and password.
 7. Point your browser to your application root:
